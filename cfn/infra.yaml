@@ -46,11 +46,11 @@ Resources:
           SelectAttributes:
             Name: SelectAttributesActivity
             Attributes:
-              - stac_passnumber
-              - log_egc_currentactds
-              - log_egc_speedfbds
-              - unix_time
-              - recieved_on
+              - servername
+              - nodename
+              - id
+              - timestamp
+              - value.value
             Next: DatastoreActivity
           Datastore:
             Name: DatastoreActivity
